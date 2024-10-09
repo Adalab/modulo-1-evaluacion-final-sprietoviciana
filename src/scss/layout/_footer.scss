@@ -1,0 +1,23 @@
+.footer {
+  background-color: $paragraph-color;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer_ul_one {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+
+  a {
+    color: $secundary-color;
+  }
+}
+.footer_ul_two {
+  color: $secundary-color;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
