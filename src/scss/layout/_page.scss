@@ -19,6 +19,7 @@
 .paragraph {
   color: $paragraph-color;
   font-size: 17px;
+  margin-bottom: 20px;
 }
 
 .aside_button a {
@@ -27,7 +28,33 @@
   border: 2px solid $principal-color;
   border-radius: 30px;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 10%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 7%;
+}
+
+.section {
+  background-color: $light-green;
+}
+.section_title {
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  & p {
+    color: $paragraph-color;
+  }
+}
+.section_images {
+  text-align: center;
+  & img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+  & p {
+    font-size: 17px;
+    font-weight: bold;
+  }
 }
