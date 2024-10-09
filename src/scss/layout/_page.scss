@@ -1,3 +1,33 @@
 .main {
-  width: 100%;
+  background-color: $secundary-color;
+}
+
+.aside {
+  padding: 20px;
+  margin-left: 8px;
+  margin-right: 80px;
+  &_p {
+    color: $principal-color;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+.aside_h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.paragraph {
+  color: $paragraph-color;
+  font-size: 17px;
+}
+
+.aside_button a {
+  color: $principal-color;
+  font-size: 20px;
+  border: 2px solid $principal-color;
+  border-radius: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10%;
 }
