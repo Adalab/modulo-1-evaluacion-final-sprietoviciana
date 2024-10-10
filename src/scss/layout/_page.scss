@@ -51,15 +51,20 @@
   grid-gap: 20px;
   justify-items: center;
   text-align: center;
+  margin-top: 30px;
+  @media (min-width: 768px){
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
   & img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 30px;
   }
   & p {
     font-size: 17px;
     font-weight: bold;
+    margin-top: 15px;
   }
 }
 .section_images_button {
