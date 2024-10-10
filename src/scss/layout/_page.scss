@@ -3,23 +3,24 @@
 }
 
 .aside {
-  padding: 20px;
-  margin-left: 8px;
-  margin-right: 80px;
+   
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 10%;
   &_p {
     color: $principal-color;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
   }
 }
 .aside_h3 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 .paragraph {
   color: $paragraph-color;
   font-size: 17px;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
 }
 
 .aside_button a {
